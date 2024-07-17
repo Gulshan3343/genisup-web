@@ -23,6 +23,9 @@ footer {
     padding: 0 8px;
   }
   
+  .mr-150{
+    margin-right: 150px;
+  }
   
   
   
@@ -358,4 +361,53 @@ footer {
   ::selection {
     color: #FFFFFF;
     background-color: #F01F4B;
+  }
+
+  .footerupper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .newsletter{
+    margin-right: 500px;
+  }
+
+  .emailarea{
+    display: flex;
+  }
+
+  .emailbox{
+    margin-right: 10px;
+  }
+
+  .emailbox input{
+    padding: 12px 15px;
+    border-radius: 5px;
+    width: 360px;
+  }
+
+  .singnupbtn{
+    background-color: #f5f544;
+    border-radius: 5px;
+    padding: 12px 0px;
+    width: 100px;
+  }
+
+  .footerlast{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+  }
+
+  .footerlast p{
+    margin: 0px 0px;
+    font-size: small;
+  }
+
+  .pb-20{
+    padding-bottom: 20px;
+  }
+
+  .jc-r{
+    justify-content: right;
   }

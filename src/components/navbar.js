@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/navbar.css'; 
+import { Link } from "react-router-dom";
 
 
 function navbar() {
@@ -11,7 +12,7 @@ function navbar() {
                 menu
                 </span></i></label>
             <label className="logo">
-                <span><img src="Genisup logo.svg" alt="" srcset=""/></span>
+                <span><Link to="/homepage"><img src="Genisup logo.svg" alt="" srcset=""/></Link></span>
             </label>
             {/* <!-- <div> --> */}
             <ul>
@@ -20,29 +21,29 @@ function navbar() {
                 <li><a href="">Calpabilities </a>
                     <ul id="submenu">
                         <div className="dropdown-menu">
-                            <div><a href="https://www.wikipedia.com">HR Consulting</a></div>
-                            <div><a href="https://www.wikipedia.com">Payroll Solutions</a></div>
-                            <div><a href="https://www.wikipedia.com">Compliance Services</a></div>
-                            <div><a href="https://www.wikipedia.com">Staffing Solutions</a></div>
+                            <div><a href="https://www.wikipedia.com">Foundation IP</a></div>
+                            <div><a href="https://www.wikipedia.com">SoC Design</a></div>
+                            <div><a href="https://www.wikipedia.com">Service Modes</a></div>
+                            <div><a href="https://www.wikipedia.com">Product engineering</a></div>
                         </div>
                     </ul>
                 </li>
 
-                <li><a href="">Company</a></li>
-
-                <li><a href="">Careers</a>
-                    <ul id="submenu">
+                <li><a href="">Company</a>
+                <ul id="submenu">
                         <div className="dropdown-menu">
-                            <div><a href="https://www.amazon.in">Post Resume</a></div>
-                            <div><a href="https://www.amazon.in">Current Operning</a></div>
+                            <div><Link to="/aboutus">About us</Link></div>
+                            <div><a href="https://www.amazon.in">Engagement Models</a></div>
+                            <div><Link to="/Contactus">Contact us</Link></div>
                         </div>
                     </ul>
-                </li>
+                    </li>
+
 
                 <li><a href="">Insights</a>
                     <ul id="submenu">
                         <div className="dropdown-menu">
-                            <div><a href="https://www.amazon.in">Blog</a></div>
+                            <div><Link to="/blog">Blog</Link></div>
                             <div><a href="https://www.amazon.in">Single Post</a></div>
                         </div>
                     </ul>
@@ -51,8 +52,9 @@ function navbar() {
                 <li><a href="">Career</a>
                     <ul id="submenu">
                         <div className="dropdown-menu">
-                            <div><a href="https://www.amazon.in">Blog</a></div>
-                            <div><a href="https://www.amazon.in">Single Post</a></div>
+                            <div><a href="https://www.amazon.in">Life @ Genisup</a></div>
+                            <div><a href="https://www.amazon.in">Explore Opportunites</a></div>
+                            <div><a href="https://www.amazon.in">Internship</a></div>
                         </div>
                     </ul>
                 </li>

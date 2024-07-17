@@ -264,7 +264,25 @@ button {
   cursor: pointer;
   transition: background 0.5s;
 }
+.button-link {
+  width: 350px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 10px;
+  font-weight: bold;
+  border: 2px solid #D9DADA;
+  border-radius: 25px;
+  background: #E5FF00;
+  color: #000000;
+  cursor: pointer;
+  transition: background 0.5s;
+}
 button:hover {
+  background: #D9DADA;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.button-link:hover {
   background: #D9DADA;
   border: 2px solid #fff;
   color: #fff;
