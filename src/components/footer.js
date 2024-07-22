@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
                     <div className="footerupper">
                         <div class="newsletter">
                             <div>
-                                <div class="newspara">
+                                <div class="newspara mb-15">
                                     <h4>Signup our newsletter to get update information, news, insight or promotions.</h4>
                                 </div>
                             </div>
@@ -26,8 +27,8 @@ function Footer() {
                         <div className="col-12 col-lg-3 ">
                             <div className="jc-r">
                                 <div className='footerlogo'>
-                            <a className="d-block mb-30" href="index.html">
-                            <img width="200px" src="Genisup logo.svg" /></a>
+                            <Link className="d-block mb-30" to="/">
+                            <img width="200px" src="Genisup logo.svg" /></Link>
                             
                             <ul className="d_flex nav text-white align-items-center mb-20 nav-gap-md nav-no-opacity">
                                 <li className="nav-item"><a className="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg"
@@ -87,9 +88,9 @@ function Footer() {
                             <div className="col-6 col-md-4 mr-150">
                                 <h6 className="display-6 text-white mb-20">Company</h6>
                                 <ul className="nav flex-column text-white nav-opacity nav-gap-sm">
-                                    <li className="nav-item"><a className="nav-link" href="#">About</a></li>
+                                    <li className="nav-item"><Link className="nav-link" to="/aboutus">About</Link></li>
                                     <li className="nav-item"><a className="nav-link" href="#">Careers</a></li>
-                                    <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
+                                    <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
                                     <li className="nav-item"><a className="nav-link" href="#">Customers</a></li>
                                     <li className="nav-item"><a className="nav-link" href="#">Hire us</a></li>
                                 </ul>
@@ -97,7 +98,7 @@ function Footer() {
                             <div className="col-6 col-md-4 mr-150">
                                 <h6 className="display-6 text-white mb-20">Help and advice</h6>
                                 <ul className="nav flex-column text-white nav-opacity nav-gap-sm">
-                                    <li className="nav-item"><a className="nav-link" href="#">Contact us</a></li>
+                                    <li className="nav-item"><Link className="nav-link" to="/Contactus">Contact us</Link></li>
                                     <li className="nav-item"><a className="nav-link" href="#">FAQ</a></li>
                                     <li className="nav-item"><a className="nav-link" href="#">Legal & Privacy</a></li>
                                 </ul>
@@ -105,7 +106,7 @@ function Footer() {
                             <div className="col-6 col-md-4 mr-150">
                                 <h6 className="display-6 text-white mb-20">Insights</h6>
                                 <ul className="nav flex-column text-white nav-opacity nav-gap-sm">
-                                    <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
+                                    <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
                                     <li className="nav-item"><a className="nav-link" href="#">Newsroom</a></li>
                                 </ul>
                             </div>
@@ -116,7 +117,7 @@ function Footer() {
                                     <li className="nav-item"><strong>Genisup India Pvt. Ltd.</strong><br/> #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN
                                     </li>
                                     <li className="nav-item"><a className="nav-link"
-                                        href="mailto:consulting@biznivate.com">info@genisup.com</a></li>
+                                        href="mailto:info@genisup.com">info@genisup.com</a></li>
                                 </ul>
                             </div>
                         </div>

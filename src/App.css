@@ -282,20 +282,14 @@ button:hover {
   border: 2px solid #fff;
   color: #fff;
 }
-.button-link:hover {
-  background: #D9DADA;
-  border: 2px solid #fff;
-  color: #fff;
-}
+
 
 .py-45 {
   padding-top: 45px !important;
   padding-bottom: 45px !important;
 }
 
-/* .container-xl, .container-lg, .container-md, .container-sm, .container {
-  max-width: 1200px;
-} */
+
 
 .container,
 .container-fluid,
@@ -392,7 +386,7 @@ p {
   margin-top: 15px;
 }
 .services_cards {
-  display: flex;
+  /* display: flex; */
   margin-top: 50px;
   text-align: center;
   justify-content: center;
@@ -471,6 +465,13 @@ p {
   background: #f5f544;
 }
 
+.btn-accent-1:hover {
+  background: #D9DADA;
+  border: 1px #fff;
+  color: black;
+  transition: 0.5s;
+}
+
 .fw-medium{
   font-weight: medium;
 } 
@@ -530,7 +531,7 @@ p a {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  /* width: 100%; */
+  width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x)* 0.5);
   padding-left: calc(var(--bs-gutter-x)* 0.5);

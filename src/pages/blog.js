@@ -20,7 +20,7 @@ function blog() {
                 </div>
             </div>
             <section class="cards_section">
-                <container class="cards_container">
+                <div class="container">
                     <div class="all_cards">
                         <div class="col-sm-6 col-lg-4  mb-lg-0">
                             <div class="card">
@@ -116,7 +116,7 @@ function blog() {
 
 
                     </div>
-                </container>
+                </div>
             </section>
             <div>
                 <Footer />

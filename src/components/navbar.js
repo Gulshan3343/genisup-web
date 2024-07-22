@@ -12,7 +12,7 @@ function navbar() {
                 menu
                 </span></i></label>
             <label className="logo">
-                <span><Link to="/homepage"><img src="Genisup logo.svg" alt="" srcset=""/></Link></span>
+                <span><Link to="/"><img src="Genisup logo.svg" alt="" srcset=""/></Link></span>
             </label>
             {/* <!-- <div> --> */}
             <ul>

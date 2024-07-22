@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ourservice() {
   return (
@@ -6,7 +7,6 @@ function ourservice() {
       <div className="pt-15 pt-lg-210 pb-130">
         <div className="container">
             <div className="services">
-                <div>
                     <div className="services_heading">
                         <h1>Areas of Expertise</h1>
                         {/* <p> Our End to End HR Solutions</p> */}
@@ -193,10 +193,10 @@ function ourservice() {
                         <p className="fw-medium font-size-15 mt-25 mb-0 animated" data-show="startbox" data-show-delay="100"
                             style={{transform: 'translateY(0px)', transitionduration: '500ms', opacity: '1'}}>Want to get a
                             free
-                            consultation? <a href="contact.php">Contact us</a>.</p>
+                            consultation? <Link to="/Contactus">Contact us</Link>.</p>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 

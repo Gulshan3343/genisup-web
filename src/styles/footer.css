@@ -24,7 +24,7 @@ footer {
   }
   
   .mr-150{
-    margin-right: 150px;
+    /* margin-right: 150px; */
   }
   
   
@@ -88,8 +88,20 @@ footer {
     line-height: inherit;
   }
   
+  .row > * {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+
   .footer-row{
     display: flex;
+    justify-content: space-between;
   
   }
   .mb-10 {
@@ -369,7 +381,7 @@ footer {
     justify-content: space-between;
   }
   .newsletter{
-    margin-right: 500px;
+    /* margin-right: 410px; */
   }
 
   .emailarea{
@@ -409,5 +421,6 @@ footer {
   }
 
   .jc-r{
+    display: flex;
     justify-content: right;
   }

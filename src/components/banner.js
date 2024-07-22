@@ -13,10 +13,10 @@ function banner() {
                         <h1>End to end Design, Innovation, Partnership
                             Designing Tomorrow, Together Today</h1>
                         <h3>Your Innovation Accelerator.
-                            Build lasting change</h3>
+                            Build lasting changes</h3>
 
                         <div>
-                            <Link to="/Contactus" className="button-link">
+                            <Link to="/Contactus" className="btn btn-accent-1">
                                 Contact Us
                             </Link>
                         </div>
