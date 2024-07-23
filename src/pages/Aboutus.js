@@ -10,7 +10,7 @@ function aboutus() {
       <div>
         <div className="aboutus_banner">
           <div className="slider">
-            <img src="banner_au.jpg" alt="img" id="slideImg" />
+            <img src="blog_card1.jpg" alt="img" id="slideImg" />
           </div>
 
         </div>
