@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import '../styles/aboutus.css';
 
-function aboutus() {
+function Aboutus() {
   return (
     <div>
       <Navbar />
@@ -166,4 +166,4 @@ function aboutus() {
       )
 }
 
-      export default aboutus
+      export default Aboutus;

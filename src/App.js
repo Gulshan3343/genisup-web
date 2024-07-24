@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contactus from './pages/Contactus';
 import Blog from './pages/blog';
-import Aboutus from './pages/aboutus';
+import Aboutus from './pages/Aboutus';
 
 
 
