@@ -102,6 +102,7 @@ footer {
   .footer-row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   
   }
   .mb-10 {
@@ -138,6 +139,7 @@ footer {
     flex-direction: column;
     display: flex;
     list-style: none;
+    margin-bottom: 40px;
   }
   
   .nav-item{
@@ -379,6 +381,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .newsletter{
     /* margin-right: 410px; */
@@ -386,16 +389,19 @@ footer {
 
   .emailarea{
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
   }
 
   .emailbox{
     margin-right: 10px;
+    margin-bottom: 15px;
   }
 
   .emailbox input{
     padding: 12px 15px;
     border-radius: 5px;
-    width: 360px;
+    width: 345px;
   }
 
   .singnupbtn{

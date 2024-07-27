@@ -1,0 +1,32 @@
+.services_cards {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    /* border: 10px solid black; */
+    margin: 20px;
+    /* padding: 60px; */
+    height: 380px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    justify-content: space-evenly;
+}
+
+.hr_consulting {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    background-color: rgba(108, 45, 45, 0.1);
+    /* margin-left: 50px; */
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 1.5s;
+  }
+  .hr_consulting:hover {
+    background-color: rgba(108, 45, 45, 0.5);
+    margin: 40px;
+    transition: 0.5s;
+  }

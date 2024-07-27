@@ -1,18 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/ourservice.css';
 
 function ourservice() {
   return (
     <div>
       <div className="pt-15 pt-lg-210 pb-130">
         <div className="container">
-            <div className="services">
+            {/* <div className="services"> */}
                     <div className="services_heading">
                         <h1>Areas of Expertise</h1>
-                        {/* <p> Our End to End HR Solutions</p> */}
                     </div>
                     <div className="services_cards">
-                        <div className="sc-box">
+                        {/* <div className="sc-box"> */}
                             <div className="hr_consulting">
                                 <div className="simg">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" fill="currentColor"
@@ -182,7 +182,7 @@ function ourservice() {
                                 <h4 className="mb-15">Staffing Solutions</h4>
                                 <p>We source, onboard, and manage your ideal workforce.</p>
                             </div>
-                        </div>
+                        {/* </div> */}
                     </div>
                     <div className="text-center mt-80">
                         <div data-show="startbox" className="animated"
@@ -195,7 +195,7 @@ function ourservice() {
                             free
                             consultation? <Link to="/Contactus">Contact us</Link>.</p>
                     </div>
-                </div>
+                
             
         </div>
     </div>
