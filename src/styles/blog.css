@@ -34,6 +34,7 @@
 }
 
 .blog_content {
+<<<<<<< HEAD
   width: 90%;
   margin: -170px auto 0;
   text-align: center;
@@ -130,6 +131,15 @@
 }
 
 @media (max-width: 768px) {
+=======
+    width: 90%;
+    margin: 290px auto 0;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+  }
+>>>>>>> 41d87af634cebd1f2d48bb902c3b27c0d72f3bb5
   .blog_content h1 {
       font-size: 36px;
   }
@@ -142,10 +152,23 @@
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 576px) {
   .blog_content {
       width: 100%;
       margin: -120px auto 0;
+=======
+  .cards_section{
+    background-color: white;
+    /* padding: 100px; */
+    /* display: flex; */
+  }     
+  
+  .cards_container{
+    width: 100%;
+    /* background-color: rgb(154, 143, 143); */
+    display: flex;
+>>>>>>> 41d87af634cebd1f2d48bb902c3b27c0d72f3bb5
   }
   .card_wrapper {
       flex: 1 1 100%;

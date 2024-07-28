@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "../src/pages/homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
 import Contactus from "./pages/Contactus";
 import Blog from "./pages/blog";
 import Aboutus from "./pages/Aboutus";
@@ -8,6 +9,14 @@ import Career from "./pages/Career";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import ServicePage from "./pages/Services";
+=======
+import Contactus from './pages/Contactus';
+import Blog from './pages/blog';
+import Aboutus from './pages/Aboutus';
+
+
+
+>>>>>>> 41d87af634cebd1f2d48bb902c3b27c0d72f3bb5
 
 function App() {
   return (

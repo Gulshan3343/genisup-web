@@ -52,8 +52,14 @@
   align-items: center;
 }
 
+<<<<<<< HEAD
 .banner-content {
   color: white;
+=======
+.contact_content {
+  width: 90%;
+  margin: 290px auto 0;
+>>>>>>> 41d87af634cebd1f2d48bb902c3b27c0d72f3bb5
   text-align: center;
 }
 
