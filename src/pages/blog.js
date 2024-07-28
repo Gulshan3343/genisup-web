@@ -1,128 +1,53 @@
-import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import '../styles/blog.css';
+import React from "react";
+import Navbar from "../components/navbar";
+import "../styles/blog.css";
+import Footer from "../components/footer";
 
-function blog() {
-    return (
-        <div>
-            <Navbar />
-            <div class="blog_banner">
-                <div class="slider">
-                    <img src="banner_blog.jpg" alt="img" id="slideImg" />
-                </div>
-
-            </div>
-            <div class="blog_overlay">
-                <div class="blog_content">
-                    <h1>Blog</h1>
-                    <h3>Archives</h3>
-                </div>
-            </div>
-            <section class="cards_section">
-                <div class="container">
-                    <div class="all_cards">
-                        <div class="col-sm-6 col-lg-4  mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card1.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card2.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card3.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card4.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card5.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
-                            <div class="card">
-                                <div class="card_image">
-                                    <img src="blog_card6.jpg" alt="img" />
-                                </div>
-                                <div class="card_content">
-                                    <h3>Move fast, and stay adaptable.</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</p>
-                                    <hr className='card_hr'></hr>
-                                    <div class="card_date">
-                                        <p>September 3, 2022</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </section>
-            <div>
-                <Footer />
-            </div>
+function Blog() {
+  return (
+    <div>
+    <header className="header-blogs">
+    <Navbar/>
+      <div className="blog_banner">
+      </div>
+      <div className="blog_overlay">
+        <div className="blog_content">
+          <h1>Our Blogs</h1>
+          <h3>Archives</h3>
         </div>
-    )
+      </div>
+      <section className="cards_section">
+        <div className="container">
+          <div className="all_cards">
+            {[...Array(6)].map((_, index) => (
+              <div className="card_wrapper" key={index}>
+                <div className="card">
+                  <div className="card_image">
+                    <img src={`blog_card${index + 1}.jpg`} alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Move fast, and stay adaptable.</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                    <hr className="card_hr" />
+                    <div className="card_date">
+                      <p>September 3, 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <Footer/>
+      </header>
+    </div>
+  );
 }
 
-export default blog
+export default Blog;
