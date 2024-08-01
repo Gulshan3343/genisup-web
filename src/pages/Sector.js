@@ -19,11 +19,62 @@ function Sector() {
       <section className="cards_section">
         <div className="container">
           <div className="all_cards">
-            {[...Array(6)].map((_, index) => (
-              <div className="card_wrapper" key={index}>
+            
+              <div className="card_wrapper">
                 <div className="card">
                   <div className="card_image">
-                    <img src={`blog_card${index + 1}.jpg`} alt="img" />
+                    <img src="blog_card3.jpg" alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Semiconductor</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="card_wrapper">
+                <div className="card">
+                  <div className="card_image">
+                    <img src="blog_card5.jpg" alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Automobile</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card_wrapper">
+                <div className="card">
+                  <div className="card_image">
+                    <img src="blog_card1.jpg" alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Manufacturing</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card_wrapper">
+                <div className="card">
+                  <div className="card_image">
+                    <img src="blog_card4.jpg" alt="img" />
                   </div>
                   <div className="card_content">
                     <h3>Move fast, and stay adaptable.</h3>
@@ -33,14 +84,43 @@ function Sector() {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur
                     </p>
-                    <hr className="card_hr" />
-                    <div className="card_date">
-                      <p>September 3, 2022</p>
-                    </div>
                   </div>
                 </div>
               </div>
-            ))}
+
+              <div className="card_wrapper">
+                <div className="card">
+                  <div className="card_image">
+                    <img src="blog_card2.jpg" alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Move fast, and stay adaptable.</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card_wrapper">
+                <div className="card">
+                  <div className="card_image">
+                    <img src="blog_card6.jpg" alt="img" />
+                  </div>
+                  <div className="card_content">
+                    <h3>Move fast, and stay adaptable.</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis parturient montes,
+                      nascetur
+                    </p>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </section>
