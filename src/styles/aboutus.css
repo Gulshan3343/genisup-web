@@ -1,6 +1,30 @@
-/* body{
-    background-color: #868686;
-} */
+
+.header-aboutus {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://i.ibb.co/VBXNZpz/silicon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43vh;
+}
+
+.header-privacy {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://i.ibb.co/SXzyWhS/engineering.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43vh;
+}
+
 .aboutus_banner {
     width: 100%;
     height: 43vh;
@@ -327,7 +351,6 @@ a.theme6-btn6:hover {
 }
 
 .missiontextarea ul{
-  /* list-style: none; */
   margin-top: 0;
   margin-bottom: 1rem;
   padding-left: 2rem;

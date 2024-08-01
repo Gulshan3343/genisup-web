@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import "../styles/blog.css";
+import "../styles/sector.css";
 import Footer from "../components/footer";
 
-function Blog() {
+function Sector() {
   return (
     <div>
     <header className="header-blogs">
@@ -12,7 +12,7 @@ function Blog() {
       </div>
       <div className="blog_overlay">
         <div className="blog_content">
-          <h1>Our Blogs</h1>
+          <h1>Sector</h1>
           <h3>Archives</h3>
         </div>
       </div>
@@ -50,4 +50,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Sector;
