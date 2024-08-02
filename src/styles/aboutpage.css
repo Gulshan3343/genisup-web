@@ -65,7 +65,7 @@ ul {
 
 .about__card:nth-child(1) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../public/Banner_au.jpg");
+    url("../../public/technology.jpg");
 }
 
 .about__card:nth-child(2) {

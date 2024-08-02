@@ -121,11 +121,13 @@ function Career() {
   );
 }
 
+const googleLogo = require('../assets/google.png');
+
 const jobList = [
   {
-    logo: "assets/figma.png",
-    company: "Figma",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Senior Product Engineer",
     description: "Lead the development of innovative product solutions, leveraging your expertise in engineering and product management to drive success.",
     positions: "12",
@@ -133,9 +135,9 @@ const jobList = [
     salary: "$1,45,000/Year"
   },
   {
-    logo: "assets/google.png",
-    company: "Google",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Project Manager",
     description: "Manage project timelines and budgets to ensure successful delivery of projects on schedule, while maintaining clear communication with stakeholders.",
     positions: "2",
@@ -143,9 +145,9 @@ const jobList = [
     salary: "$95,000/Year"
   },
   {
-    logo: "assets/figma.png",
-    company: "Figma",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Senior Product Engineer",
     description: "Lead the development of innovative product solutions, leveraging your expertise in engineering and product management to drive success.",
     positions: "12",
@@ -153,9 +155,9 @@ const jobList = [
     salary: "$1,45,000/Year"
   },
   {
-    logo: "assets/google.png",
-    company: "Google",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Project Manager",
     description: "Manage project timelines and budgets to ensure successful delivery of projects on schedule, while maintaining clear communication with stakeholders.",
     positions: "2",
@@ -163,9 +165,9 @@ const jobList = [
     salary: "$95,000/Year"
   },
   {
-    logo: "assets/figma.png",
-    company: "Figma",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Senior Product Engineer",
     description: "Lead the development of innovative product solutions, leveraging your expertise in engineering and product management to drive success.",
     positions: "12",
@@ -173,9 +175,9 @@ const jobList = [
     salary: "$1,45,000/Year"
   },
   {
-    logo: "assets/google.png",
-    company: "Google",
-    location: "USA",
+    logo: googleLogo,
+    company: "Genisup Pvt Ltd.",
+    location: " #236,TNHB Phase VII, Brindavan Hosur, 635109, Tamil Nadu, IN",
     title: "Project Manager",
     description: "Manage project timelines and budgets to ensure successful delivery of projects on schedule, while maintaining clear communication with stakeholders.",
     positions: "2",
