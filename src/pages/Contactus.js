@@ -82,7 +82,7 @@ function Contactus() {
             </form>
           </div>
           <div className="map-container">
-            <iframe
+            <iframe title ="map container"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7783.090420205389!2d77.826124!3d12.743065000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae76ba27286aff%3A0x3630cd858f297941!2sGENISUP%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sus!4v1721303692398!5m2!1sen!2sus"
               width="100%"
               height="100%"

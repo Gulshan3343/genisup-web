@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/working.css";
 import padlockImage from "../assets/padlock.png";
 import settingsImage from "../assets/settings.png";
-import waterDropsImage from "../assets/water-drops.png";
+// import waterDropsImage from "../assets/water-drops.png";
 import goalImage from "../assets/goal.png";
 
 function HowItWorks() {
