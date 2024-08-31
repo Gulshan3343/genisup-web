@@ -1,6 +1,7 @@
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 import React from 'react'
 import "../styles/header.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
 
@@ -35,8 +36,8 @@ function Hero() {
     {/* <!-- End Title & Description --> */}
 
     <div class="gap-3">
-      <a class="btn z-index btn-primary btn-transition" href="#">Contact Us</a>
-      <a class="btn z-index btn-ghost-light btn-transition" href="#">Learn More <i class="bi-chevron-right small ms-1"></i></a>
+      <Link to="/contactus" class="btn z-index btn-primary btn-transition">Contact Us</Link>
+      <Link to="/aboutus" class="btn z-index btn-ghost-light btn-transition">Learn More <i class="bi-chevron-right small ms-1"></i></Link>
     </div>
   </div>
 
