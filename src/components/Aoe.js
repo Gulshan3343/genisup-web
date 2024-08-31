@@ -6,6 +6,11 @@ import goalImage from "../assets/Industry 4.0 Solutions.jpg";
 import { Link } from "react-router-dom";
 
 function Aoe() {
+
+  const handleScrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
   return (
     <div>
       <section className="work">
@@ -21,7 +26,7 @@ function Aoe() {
               Foundation IP, Custom SoC, RTL to GDSII
               </p>
               <hr style={{margin:"10px 45px"}}></hr>
-              <Link to="/Silicon">Learn more <b>></b> </Link>
+              <Link to="/Silicon" onClick={handleScrollToTop}>Learn more <b>></b> </Link>
             </div>
             <div className="aoe__card">
               <span>
@@ -32,7 +37,7 @@ function Aoe() {
               Designing Advanced Embedded Systems
               </p>
               <hr style={{margin:"10px 45px"}}></hr>
-              <Link to ="/Embedded">Learn more <b>></b></Link>
+              <Link to ="/Embedded" onClick={handleScrollToTop}>Learn more <b>></b></Link>
             </div>
             <div className="aoe__card">
               <span>
@@ -43,7 +48,7 @@ function Aoe() {
               Use smart manufacturing technology to expedite your digital transformation.
               </p>
               <hr style={{margin:"10px 45px"}}></hr>
-              <Link to="/Solution_4">Learn more <b>></b></Link>
+              <Link to="/Solution_4" onClick={handleScrollToTop}>Learn more <b>></b></Link>
             </div>
           </div>
         </div>
