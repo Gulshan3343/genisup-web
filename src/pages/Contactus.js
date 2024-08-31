@@ -8,7 +8,7 @@ function Contactus() {
     <div className="contact-us">
         <Navbar />
 
-        <div className="blog_banner" style={{ backgroundImage: 'url(/contactus.jpg)'}}>
+        <div className="blog_banner" style={{ backgroundImage: 'url(/Contactus.jpg)'}}>
         <div className="overlay">
             <h1>Contact Us</h1>
             <h3>Get in touch and let us know how we can help.</h3>

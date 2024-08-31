@@ -10,7 +10,7 @@ function Aboutus() {
     <div>
         <Navbar />
         
-        <div className="blog_banner" style={{ backgroundImage: 'url(/aboutus.jpg)'}}>
+        <div className="blog_banner" style={{ backgroundImage: 'url(/Aboutus.jpg)'}}>
         <div className="overlay">
           <h1>About Us</h1>
           <h3>Your Innovation Accelerator. Build lasting change</h3>
