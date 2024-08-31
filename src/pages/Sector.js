@@ -6,12 +6,11 @@ import Footer from "../components/footer";
 function Sector() {
   return (
     <div>
-    <header className="header-blogs">
+
     <Navbar/>
-      <div className="blog_banner">
-      </div>
-      <div className="blog_overlay">
-        <div className="blog_content">
+
+      <div className="blog_banner" style={{ backgroundImage: 'url(/sector.jpg)'}}>
+      <div className="overlay">
           <h1>Sector</h1>
           <h3>Archives</h3>
         </div>
@@ -125,7 +124,6 @@ function Sector() {
         </div>
       </section>
       <Footer/>
-      </header>
     </div>
   );
 }

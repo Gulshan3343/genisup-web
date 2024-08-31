@@ -317,8 +317,12 @@ a.theme6-btn6:hover {
 }
 
 .mb-30{
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 } 
+
+.mt-30{
+  margin-top: 30px;
+}
 
 .lineh-24 {
   line-height: 24px;
@@ -328,14 +332,14 @@ a.theme6-btn6:hover {
   transition: all .4s ease-in-out;
 }
 .margin-b14 {
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .mission-area-starts, .missionimg, img.missionimg2 {
   position: relative;
 }
 .section-padding5 {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .align-items-center {
@@ -363,4 +367,52 @@ a.theme6-btn6:hover {
 
 img.ts {
   width: 60px;
+  margin: 5px 20px 20px 20px;
+}
+
+.lawprovide-boaxrea{
+  display: flex;
+}
+
+.our_solution{
+  margin: 20px 0;
+  font-size: 2rem;
+    color: #21325b;
+    letter-spacing: .12px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.hero{
+  background-color:rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  --bs-bg-opacity: 1;
+  background-image:url("../../public/wave-pattern-light.svg");
+/* background-position: center center; */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+
+}
+
+.margin-b32{
+  margin-bottom: 32px;
+}
+
+.blog_banner img{
+  height: 43vh;
+  z-index: -10;
+}
+
+.blog_banner{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 50, 0.5);
+    justify-content: center;
+    flex-direction: column;
 }

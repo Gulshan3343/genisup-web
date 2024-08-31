@@ -1,0 +1,76 @@
+.header-silicon {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("https://i.ibb.co/Ks1RCMh/blue-item-technology-background-23-2148882618.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53vh;
+  }
+
+  .blog_banner {
+    text-align: center;
+    color: orange;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 2.25rem;
+    color: #21325b;
+    letter-spacing: .12px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.article-quote-text p {
+    font-size: 1.17rem;
+    color: #15011d;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.article-quote-text ul{
+    list-style: inside;
+    padding-left: 2rem;
+}
+
+.article-quote-text ul li {
+    font-size: 1rem;
+    color: #000000;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.section-header-silicon{
+        font-size: 2.25rem;
+        color: #21325b;
+        letter-spacing: 1px;
+        line-height: 48px;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 30px;
+}
+
+.section-description-silicon{
+    font-size: 1.17rem;
+    letter-spacing: 1px;
+    
+}
+
+.about__silicon{
+        margin-bottom: 4rem;
+        gap: 2rem;
+}

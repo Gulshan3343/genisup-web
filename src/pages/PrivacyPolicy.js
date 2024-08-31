@@ -6,11 +6,10 @@ import Navbar from "../components/navbar";
 function PrivacyPolicy() {
   return (
     <div>
-      <header className="header-privacy">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
+
+        <div className="blog_banner" style={{ backgroundImage: 'url(/privacy.jpg)'}}>
+        <div className="overlay">
             <h1>Privacy Policy</h1>
             <h3>Here's the privacy policy of genisup.com with effective use of it</h3>
           </div>
@@ -66,7 +65,6 @@ function PrivacyPolicy() {
       </section>
     </div>
     <Footer/>
-    </header>
     </div>
   );
 }

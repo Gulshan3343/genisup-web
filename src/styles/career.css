@@ -51,6 +51,7 @@
   border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
+  z-index: 3;
 }
 
 .btn:hover {
@@ -263,5 +264,5 @@ body {
   
   .page-number.active,
   .page-number:hover {
-    background-color: #918a8a;
+    background-color: #c2bfbf;
   }

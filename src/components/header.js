@@ -1,12 +1,17 @@
+
 import React from "react";
 import Navbar from "./navbar";
-import "../styles/navbar.css";
 
-function header() {
+
+function Header() {
+
+
+
   return (
     <header className="header-nav">
-      <Navbar />
-      <div className="section__container header__container" id="home">
+      <Navbar/>
+
+      {/* <div className="section__container header__container" id="home">
         <h1>Your Innovation Accelerator. Build lasting changes</h1>
         <button className="btn_header btn-secondary">
           Get Quotation
@@ -14,9 +19,12 @@ function header() {
             <i className="ri-arrow-right-double-line"></i>
           </span>
         </button>
-      </div>
+      </div> */}
+
+      
+
     </header>
   );
 }
 
-export default header;
+export default Header;

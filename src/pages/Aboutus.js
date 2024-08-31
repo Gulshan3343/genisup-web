@@ -8,15 +8,15 @@ import "../styles/aboutpage.css";
 function Aboutus() {
   return (
     <div>
-      <header className="header-aboutus">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
-            <h1>About us</h1>
-            <h3>Your Innovation Accelerator. Build lasting change</h3>
-          </div>
+        
+        <div className="blog_banner" style={{ backgroundImage: 'url(/aboutus.jpg)'}}>
+        <div className="overlay">
+          <h1>About Us</h1>
+          <h3>Your Innovation Accelerator. Build lasting change</h3>
         </div>
+        </div>
+        
 
         <section className="section-container-about about__container" id="about">
   <div className="about__header">
@@ -66,7 +66,7 @@ function Aboutus() {
                     silicon engineering, innovation ecosystem and many more
                   </p>
                   <a
-                    className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32"
+                    className="theme6-btn6 font-ks lineh-16 weight-700 color font-16 margin-t32 margin-b32"
                     href="/team"
                   >
                     Meet Our Attorneys
@@ -131,7 +131,6 @@ function Aboutus() {
 
         <Faq />
         <Footer />
-      </header>
     </div>
   );
 }

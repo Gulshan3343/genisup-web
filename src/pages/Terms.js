@@ -6,11 +6,10 @@ import Navbar from '../components/navbar'
 function Terms() {
   return (
     <div>
-        <header className="header-privacy">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
+
+        <div className="blog_banner" style={{ backgroundImage: 'url(/T&C.jpg)'}}>
+        <div className="overlay">
             <h1>Terms & Conditions</h1>
             <h3>Here's the terms & conditions of genisup.com with effective use of it</h3>
           </div>
@@ -53,7 +52,6 @@ function Terms() {
       </section>
     </div>
     <div><Footer/></div>
-    </header>
     
     </div>
   )

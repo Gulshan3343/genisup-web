@@ -140,18 +140,26 @@ function Blog() {
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+  const handleScrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
+  const handlePageChange = (pageNumber) => {
+    paginate(pageNumber);
+    handleScrollToTop();
+  };
 
   return (
     <div>
-      <header className="header-blogs">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
-            <h1>Our Blogs</h1>
-            <h3>Archives</h3>
-          </div>
+
+        <div className="blog_banner" style={{ backgroundImage: 'url(/blog.jpg)'}}>
+        <div className="overlay">
+        <h1>Our Blogs</h1>
+        <h3>Archives</h3>
         </div>
+        </div>
+
         <section className="cards_section">
           <div className="container">
             <div className="all_cards">
@@ -187,7 +195,7 @@ function Blog() {
             {[...Array(Math.ceil(blogs.length / blogsPerPage)).keys()].map(number => (
               <button
                 key={number + 1}
-                onClick={() => paginate(number + 1)}
+                onClick={() => handlePageChange(number + 1)}
                 className={`page-number ${currentPage === number + 1 ? "active" : ""}`}
               >
                 {number + 1}
@@ -196,7 +204,6 @@ function Blog() {
           </div>
         </section>
         <Footer />
-      </header>
     </div>
   );
 }

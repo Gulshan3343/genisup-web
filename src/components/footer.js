@@ -3,12 +3,19 @@ import { Link } from "react-router-dom";
 import "../styles/footer.css";
 
 function Footer() {
+  const handleScrollToTop = () => {
+    window.scrollTo(0,0);
+  };
   return (
     <div>
       <footer className="footer">
         <div className="section__container footer__container">
           <div className="footer__col">
-            <h3>Genisup</h3>
+          <div className="footer__logo">
+          <Link to="/">
+            <img src="Genisup logo.svg" onClick={handleScrollToTop} alt="Genisup Logo" />
+          </Link>
+        </div>
             <p>End to end partnership| Designing Tomorrow, Together Today</p>
             <p>
               When you visit or interact with our sites, services or tools, we
@@ -20,37 +27,37 @@ function Footer() {
           <div className="footer__col">
             <h4>Company</h4>
             <p>
-              <Link to="/aboutus">About Us</Link>
+              <Link to="/aboutus" onClick={handleScrollToTop}>About Us</Link>
             </p>
             <p>
-              <Link to="/careers">Careers</Link>
+              <Link to="/careers" onClick={handleScrollToTop}>Careers</Link>
             </p>
             <p>
-              <Link to="/blogs">Our Blogs</Link>
+              <Link to="/blog" onClick={handleScrollToTop}>Our Blogs</Link>
             </p>
             <p>
-              <Link to="/privacypolicy">Privacy Policy</Link>
+              <Link to="/privacypolicy" onClick={handleScrollToTop}>Privacy Policy</Link>
             </p>
             <p>
-              <Link to="/terms">Terms & Conditions</Link>
+              <Link to="/terms" onClick={handleScrollToTop}>Terms & Conditions</Link>
             </p>
           </div>
           <div className="footer__col">
-            <h4>Industries</h4>
+            <h4>Our Services</h4>
             <p>
-              <Link to="/">Semiconductor</Link>
+              <Link to="/silicon" onClick={handleScrollToTop}>Silicon Engineering</Link>
             </p>
             <p>
-              <Link to="/">Automobile</Link>
+              <Link to="/embedded" onClick={handleScrollToTop}>Embedded Solutions</Link>
             </p>
             <p>
-              <Link to="/">Aviation</Link>
+              <Link to="/solution_4" onClick={handleScrollToTop}>Industry 4.0</Link>
             </p>
             <p>
-              <Link to="/">Customer Goods</Link>
+              <Link to="/" onClick={handleScrollToTop}>Customer Goods</Link>
             </p>
             <p>
-              <Link to="/">Manufacturing</Link>
+              <Link to="/" onClick={handleScrollToTop}>Manufacturing</Link>
             </p>
           </div>
           <div className="footer__col">
@@ -69,6 +76,7 @@ function Footer() {
             </p>
           </div>
         </div>
+        <hr style={{margin:"0 80px"}}/>
         <div className="footer__bar">
           <div className="footer__bar__content">
             <p>Copyright © 2024 Genisup Pvt Ltd. All rights reserved.</p>

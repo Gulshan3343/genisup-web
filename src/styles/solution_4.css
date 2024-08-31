@@ -1,0 +1,21 @@
+.solution_heading{
+    font-size: 1.6rem;
+    color: #21325b;
+    letter-spacing: .12px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.section-container-solution {
+    max-width: 1200px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.about__solution {
+    margin-bottom: 0rem;
+    gap: 2rem;
+}
+

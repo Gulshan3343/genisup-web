@@ -6,15 +6,15 @@ import Footer from "../components/footer";
 function Contactus() {
   return (
     <div className="contact-us">
-      <header className="header-contact">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
+
+        <div className="blog_banner" style={{ backgroundImage: 'url(/contactus.jpg)'}}>
+        <div className="overlay">
             <h1>Contact Us</h1>
             <h3>Get in touch and let us know how we can help.</h3>
           </div>
         </div>
+
         <section className="contact-info">
           <div className="info-card">
             <img src="pin-location.svg" alt="Location" />
@@ -94,7 +94,6 @@ function Contactus() {
           </div>
         </section>
         <Footer/>
-      </header>
     </div>
   );
 }

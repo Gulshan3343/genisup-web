@@ -9,7 +9,9 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import ServicePage from "./pages/Services";
 import Sector from "./pages/Sector";
-
+import Silicon from "./pages/silicon";
+import Embedded from "./pages/embedded";
+import Solution_4 from "./pages/solution_4";
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/sector" element={<Sector />} />
+        <Route path="/silicon" element={<Silicon />} />
+        <Route path="/embedded" element={<Embedded />} />
+        <Route path="/solution_4" element={<Solution_4 />} />
       </Routes>
     </BrowserRouter>
   );

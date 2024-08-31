@@ -247,13 +247,21 @@ function Career() {
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+  const handleScrollToTop = () => {
+    window.scrollTo(0,0);
+  };
+
+  const handlePageChange = (pageNumber) => {
+    paginate(pageNumber);
+    handleScrollToTop();
+  };
+
   return (
     <div>
-      <header className="header-careers">
         <Navbar />
-        <div className="blog_banner"></div>
-        <div className="blog_overlay">
-          <div className="blog_content">
+
+        <div className="blog_banner" style={{ backgroundImage: 'url(/career.jpg)'}}>
+        <div className="overlay">
             <h1>Careers</h1>
             <h3>Get connected with us with you expertise and experience</h3>
           </div>
@@ -291,7 +299,7 @@ function Career() {
           {[...Array(Math.ceil(career.length / careerPerPage)).keys()].map(number => (
             <button
               key={number + 1}
-              onClick={() => paginate(number + 1)}
+              onClick={() => handlePageChange(number + 1)}
               className={`page-number ${currentPage === number + 1 ? "active" : ""}`}
             >
               {number + 1}
@@ -351,7 +359,6 @@ function Career() {
         </div>
       )}
       <Footer />
-    </header>
     </div >
   );
 }
