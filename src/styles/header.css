@@ -215,3 +215,7 @@ img, svg {
     text-align: left;
     margin-bottom: 1rem;
 }
+
+.z-index {
+    z-index: 3;
+}

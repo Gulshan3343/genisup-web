@@ -35,8 +35,8 @@ function Hero() {
     {/* <!-- End Title & Description --> */}
 
     <div class="gap-3">
-      <a class="btn btn-primary btn-transition" href="#">Contact Us</a>
-      <a class="btn btn-ghost-light btn-transition" href="#">Learn More <i class="bi-chevron-right small ms-1"></i></a>
+      <a class="btn z-index btn-primary btn-transition" href="#">Contact Us</a>
+      <a class="btn z-index btn-ghost-light btn-transition" href="#">Learn More <i class="bi-chevron-right small ms-1"></i></a>
     </div>
   </div>
 
